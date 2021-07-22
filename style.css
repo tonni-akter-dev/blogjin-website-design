@@ -1,0 +1,37 @@
+.margin-top{
+    margin-top: 70px;
+}
+.card-frame{
+    position: relative;
+    overflow: hidden;
+}
+.card-frame img:hover{
+    transform: scale(1.3);
+    transition: transform 2s ease;
+}
+.card-part{
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+}
+.image-part{
+    position: relative;
+}
+.button-part{
+    position: absolute;
+    top: 230px;
+    left: 20px;
+}
+
+.img-part{
+    position: relative;
+}
+.img-part img:hover{
+    transform: scale(1.2);
+    transition: transform 2s ease-in-out;
+}
+.title{
+    position: absolute;
+    top: 10px;
+    left: 150px;
+}
